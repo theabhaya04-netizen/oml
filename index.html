@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>One Month of Us ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOADING SCREEN -->
+
+    <div id="loader">
+
+        <div class="loader-heart">♡</div>
+
+        <p>Something special is coming...</p>
+
+    </div>
+
+
+    <!-- FLOATING PARTICLES -->
+
+    <div id="particles"></div>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section class="hero">
+
+        <div class="stars"></div>
+
+        <div class="hero-glow"></div>
+
+        <div class="hero-content">
+
+            <p class="small-text">
+                A LITTLE SOMETHING FOR YOU
+            </p>
+
+            <h1 id="typing-title"></h1>
+
+            <p class="hero-subtitle">
+                One month.<br>
+                One little story.<br>
+                Two hearts.
+            </p>
+
+            <button class="main-btn" onclick="startStory()">
+                Open Our Story
+                <span>♡</span>
+            </button>
+
+        </div>
+
+        <div class="scroll-down">
+            ↓
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         LETTER
+    ========================== -->
+
+    <section class="letter-section reveal">
+
+        <p class="section-small">
+            01 · A LITTLE LETTER
+        </p>
+
+        <h2>
+            Something<br>
+            for you ♡
+        </h2>
+
+
+        <div class="envelope-area">
+
+            <div class="envelope" onclick="openLetter(this)">
+
+                <!-- Letter -->
+
+                <div class="letter">
+
+                    <div class="letter-content">
+
+                        <div class="letter-top">
+                            To You ♡
+                        </div>
+
+                        <p>
+                            One month may be only the beginning,
+                            but this little chapter already means
+                            so much to me.
+                        </p>
+
+                        <p>
+                            Even from far away, you have found
+                            a way to become part of my everyday life.
+                        </p>
+
+                        <div class="letter-sign">
+                            — From me ♡
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Envelope body -->
+
+                <div class="envelope-body">
+
+                    <div class="fold-left"></div>
+
+                    <div class="fold-right"></div>
+
+                    <div class="fold-bottom"></div>
+
+                </div>
+
+
+                <!-- Envelope flap -->
+
+                <div class="flap">
+
+                    <div class="flap-inner"></div>
+
+                </div>
+
+
+                <!-- Seal -->
+
+                <div class="seal">
+                    ♡
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <p class="click-text">
+            Tap the envelope to open ♡
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         PHOTOS
+    ========================== -->
+
+    <section class="photos-section reveal">
+
+        <p class="section-small">
+            02 · LITTLE PIECES OF YOU
+        </p>
+
+        <h2>
+            The face behind<br>
+            my favorite moments
+        </h2>
+
+        <p class="description">
+            We may be miles apart, but your photos still bring
+            little pieces of you closer to me.
+        </p>
+
+
+        <div class="photo-container">
+
+
+            <!-- PHOTO 1 -->
+
+            <div class="photo-card">
+
+                <div class="card-inner">
+
+                    <div class="card-front">
+
+                        <img src="images/him1.jpg" alt="Photo 1">
+
+                        <div class="photo-caption">
+
+                            <span>01</span>
+
+                            <h3>The Face</h3>
+
+                            <p>I Look Forward To</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-back">
+
+                        <div class="back-heart">
+                            ♡
+                        </div>
+
+                        <p>
+                            Somehow, seeing you can make
+                            an ordinary day feel better.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 2 -->
+
+            <div class="photo-card">
+
+                <div class="card-inner">
+
+                    <div class="card-front">
+
+                        <img src="images/him2.jpg" alt="Photo 2">
+
+                        <div class="photo-caption">
+
+                            <span>02</span>
+
+                            <h3>Your Smile</h3>
+
+                            <p>My Favorite View</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-back">
+
+                        <div class="back-heart">
+                            ♡
+                        </div>
+
+                        <p>
+                            One little smile from you
+                            can change my whole mood.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 3 -->
+
+            <div class="photo-card">
+
+                <div class="card-inner">
+
+                    <div class="card-front">
+
+                        <img src="images/him3.jpg" alt="Photo 3">
+
+                        <div class="photo-caption">
+
+                            <span>03</span>
+
+                            <h3>Your Name</h3>
+
+                            <p>My Favorite Notification</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-back">
+
+                        <div class="back-heart">
+                            ♡
+                        </div>
+
+                        <p>
+                            Your name appearing on my screen
+                            never feels ordinary.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 4 -->
+
+            <div class="photo-card">
+
+                <div class="card-inner">
+
+                    <div class="card-front">
+
+                        <img src="images/him4.jpg" alt="Photo 4">
+
+                        <div class="photo-caption">
+
+                            <span>04</span>
+
+                            <h3>One Month</h3>
+
+                            <p>Of Little Moments</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-back">
+
+                        <div class="back-heart">
+                            ♡
+                        </div>
+
+                        <p>
+                            Thirty days of getting to know
+                            you a little more.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- PHOTO 5 -->
+
+            <div class="photo-card special-card">
+
+                <div class="card-inner">
+
+                    <div class="card-front">
+
+                        <img src="images/him5.jpg" alt="Photo 5">
+
+                        <div class="photo-caption">
+
+                            <span>05</span>
+
+                            <h3>My Person</h3>
+
+                            <p>Across The Miles</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card-back">
+
+                        <div class="back-heart">
+                            ♡
+                        </div>
+
+                        <p>
+                            Different places,
+                            but somehow you feel close.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         DISTANCE
+    ========================== -->
+
+    <section class="distance-section reveal">
+
+        <div class="moon"></div>
+
+        <p class="section-small">
+            03 · MILES APART
+        </p>
+
+        <h2>
+            Different places.<br>
+            Same little story.
+        </h2>
+
+
+        <div class="distance">
+
+            <div class="person">
+
+                <div class="person-glow"></div>
+
+                <div class="person-icon">
+                    ♡
+                </div>
+
+                <span>
+                    YOU
+                </span>
+
+            </div>
+
+
+            <div class="connection">
+
+                <div class="connection-line"></div>
+
+                <div class="traveling-heart">
+                    ♥
+                </div>
+
+                <div class="little-stars">
+                    ✦ · ✧ · ✦
+                </div>
+
+            </div>
+
+
+            <div class="person">
+
+                <div class="person-glow"></div>
+
+                <div class="person-icon">
+                    ♡
+                </div>
+
+                <span>
+                    HIM
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <p class="distance-text">
+            Miles can separate two people,<br>
+            but they don't have to separate two hearts.
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         NUMBERS
+    ========================== -->
+
+    <section class="numbers-section reveal">
+
+        <p class="section-small">
+            04 · OUR FIRST MONTH
+        </p>
+
+        <h2>
+            One month<br>
+            in numbers
+        </h2>
+
+
+        <div class="numbers">
+
+            <div class="number-box">
+
+                <span class="number" data-target="30">
+                    0
+                </span>
+
+                <p>DAYS</p>
+
+            </div>
+
+
+            <div class="number-box">
+
+                <span class="number" data-target="720">
+                    0
+                </span>
+
+                <p>HOURS</p>
+
+            </div>
+
+
+            <div class="number-box">
+
+                <span class="number" data-target="43200">
+                    0
+                </span>
+
+                <p>MINUTES</p>
+
+            </div>
+
+        </div>
+
+
+        <p class="small-love">
+            And countless little moments ♡
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+         SECRET MESSAGE
+    ========================== -->
+
+    <section class="secret-section reveal">
+
+        <div class="secret-glow"></div>
+
+        <p class="section-small">
+            05 · ONE LAST THING
+        </p>
+
+        <h2>
+            There's something<br>
+            you should know...
+        </h2>
+
+
+        <button class="secret-btn" onclick="showSecret()">
+
+            Open My Secret
+
+            <span>♡</span>
+
+        </button>
+
+
+        <div id="secretMessage">
+
+            <div class="secret-heart">
+                ♡
+            </div>
+
+            <p>
+                If I could choose one thing from this first month,
+                I would choose all the little moments that brought
+                us closer.
+            </p>
+
+            <p>
+                Thank you for being someone who makes the distance
+                feel a little smaller.
+            </p>
+
+            <h3>
+                Happy One Month, Love ♡
+            </h3>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL
+    ========================== -->
+
+    <section class="final-section">
+
+        <div class="final-content">
+
+            <p class="final-small">
+                30 DAYS DOWN...
+            </p>
+
+            <h1>
+                Our story<br>
+                is just beginning.
+            </h1>
+
+            <div class="final-heart">
+                ♡
+            </div>
+
+            <p class="ending">
+                Happy One Month, Love.
+            </p>
+
+            <div class="final-line"></div>
+
+            <p class="made">
+                Made with love, just for you.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
